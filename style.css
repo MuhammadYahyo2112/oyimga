@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+canvas {
+  position: absolute;
+}
+svg {
+  position: absolute;
+  display: none;
+}
+
+.heart-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ee5282;
+  text-shadow: 0 0 10px #ee5282, 0 0 20px #ff8da1;
+  pointer-events: none;
+}
+
